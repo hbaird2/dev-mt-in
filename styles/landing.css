@@ -1,0 +1,22 @@
+.name {
+  font-size: 30px;
+  word-break: break-all;
+}
+
+.tagline {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.bio {
+  font-size: 15px;
+}
+
+
+/*#headerTriangle {
+  width:0;
+  height:0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 30px solid #74FDF2;
+}*/

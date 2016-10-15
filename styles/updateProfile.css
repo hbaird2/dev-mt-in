@@ -1,0 +1,12 @@
+#rightForm {
+  float: right;
+}
+
+#leftForm {
+  float: left;
+}
+.updateHeader {
+  border: 1px solid grey;
+  width:100%;
+  margin-left: 5px;
+}

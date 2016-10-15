@@ -1,0 +1,15 @@
+<link rel="stylesheet" type="text/css" href="styles/updateProfile.css">
+<form id="rightForm">
+  <div class="updateHeader">Update Profile</div>
+  <input ng-model="nameText" type="text" name="name" placeholder="Full Name">
+  <input ng-model="taglineText" type="text" name="tagline" placeholder="Tagline">
+  <input ng-model="profileImg" type="text" name="profile" placeholder="Profile Image Url">
+  <textarea ng-model="bioText" type="text" name="bio" placeholder="Bio"></textarea>
+  <button ui-sref="landing" ng-click="storeName(); storeTagline(); storeProfileImg(); storeBio()" type="button" name="Save Changes">Save Changes</button>
+</form>
+
+<form id="leftForm">
+  <p class="name">{{userName}}</p>
+  <p class="tagline">{{userTagline}}</p>
+  <p class="bio">{{userBio}}</p>
+</form>

@@ -1,0 +1,14 @@
+<form>
+  <p class ="welcome">Welcome to <span class ="DevMtnBlue">DevMountain</span> Social
+  </br>
+  Add Some Info So Friends Can Find You</p>
+  <input ng-model="nameText" type="text" name="name" placeholder="Full Name">
+  <input ng-model="taglineText" type="text" name="tagline" placeholder="Tagline">
+  <input ng-model="profileImg" type="text" name="profile" placeholder="Profile Image Url">
+  <textarea ng-model="bioText" type="text" name="bio" placeholder="Bio"></textarea>
+  <button ui-sref="landing" ng-click= "saveChanges(nameText, taglineText, profileImg, bioText)" type="button" name="Save Changes">Save Changes</button>
+</form>
+<div class="triangleContainer">
+  <div class="greyTriangle"></div>
+  <div class="blueTriangle"></div>
+</div>
