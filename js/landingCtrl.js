@@ -7,10 +7,10 @@ angular.module('DevMtn').controller('landingCtrl', function($scope, dataService)
 // console.log(newUser);
 
     // ------using local storage --------
-    // $scope.userName = sessionStorage.getItem('name');
-    // $scope.userTagline = sessionStorage.getItem('tagline');
-    // $scope.profileImg = sessionStorage.getItem('profileImg');
-    // $scope.userBio = sessionStorage.getItem('bio');
+    $scope.userName = sessionStorage.getItem('name');
+    $scope.userTagline = sessionStorage.getItem('tagline');
+    $scope.profileImg = sessionStorage.getItem('profileImg');
+    $scope.userBio = sessionStorage.getItem('bio');
 
 
 });

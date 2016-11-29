@@ -30,20 +30,22 @@ $scope.saveChanges= function(name, tag, image, bio) {
   //   window.location = "landing.html";
   //   }
   //
-    // $scope.storeName = function(){
-    //   sessionStorage.setItem('name', $scope.nameText)
-    // }
-    //
-    // $scope.storeTagline = function(){
-    //   sessionStorage.setItem('tagline', $scope.taglineText)
-    // }
-    //
-    // $scope.storeProfileImg = function(){
-    //   sessionStorage.setItem('profileImg', $scope.profileImg)
-    // }
-    //
-    // $scope.storeBio = function(){
-    //   sessionStorage.setItem('bio', $scope.bioText)
-    // }
+
+  // using local storage
+    $scope.storeName = function(){
+      sessionStorage.setItem('name', $scope.nameText)
+    }
+
+    $scope.storeTagline = function(){
+      sessionStorage.setItem('tagline', $scope.taglineText)
+    }
+
+    $scope.storeProfileImg = function(){
+      sessionStorage.setItem('profileImg', $scope.profileImg)
+    }
+
+    $scope.storeBio = function(){
+      sessionStorage.setItem('bio', $scope.bioText)
+    }
 
 });
