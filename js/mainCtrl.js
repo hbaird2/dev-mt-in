@@ -32,20 +32,20 @@ $scope.saveChanges= function(name, tag, image, bio) {
   //
 
   // using local storage
-    $scope.storeName = function(){
-      sessionStorage.setItem('name', $scope.nameText)
-    }
-
-    $scope.storeTagline = function(){
-      sessionStorage.setItem('tagline', $scope.taglineText)
-    }
-
-    $scope.storeProfileImg = function(){
-      sessionStorage.setItem('profileImg', $scope.profileImg)
-    }
-
-    $scope.storeBio = function(){
-      sessionStorage.setItem('bio', $scope.bioText)
-    }
+    // $scope.storeName = function(){
+    //   sessionStorage.setItem('name', $scope.nameText)
+    // }
+    //
+    // $scope.storeTagline = function(){
+    //   sessionStorage.setItem('tagline', $scope.taglineText)
+    // }
+    //
+    // $scope.storeProfileImg = function(){
+    //   sessionStorage.setItem('profileImg', $scope.profileImg)
+    // }
+    //
+    // $scope.storeBio = function(){
+    //   sessionStorage.setItem('bio', $scope.bioText)
+    // }
 
 });

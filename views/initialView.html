@@ -6,7 +6,7 @@
   <input ng-model="taglineText" type="text" name="tagline" placeholder="Tagline">
   <input ng-model="profileImg" type="text" name="profile" placeholder="Profile Image Url">
   <textarea ng-model="bioText" type="text" name="bio" placeholder="Bio"></textarea>
-  <button ng-click="storeName(); storeTagline(); storeProfileImg(); storeBio();" type="button" name="Save Changes">Save Changes</button>
+  <button ng-click="saveChanges(nameText, taglineText, profileImg, bioText)" type="button" name="Save Changes">Save Changes</button>
   <!-- method using api calls -->
   <!-- ng-click="saveChanges(nameText, taglineText, profileImg, bioText)"  -->
 </form>
