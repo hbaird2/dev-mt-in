@@ -5,11 +5,11 @@
   <input ng-model="taglineText" type="text" name="tagline" placeholder="Tagline">
   <input ng-model="profileImg" type="text" name="profile" placeholder="Profile Image Url">
   <textarea ng-model="bioText" type="text" name="bio" placeholder="Bio"></textarea>
-  <button ui-sref="landing" ng-click="storeName(); storeTagline(); storeProfileImg(); storeBio()" type="button" name="Save Changes">Save Changes</button>
+  <button ng-click="saveChanges(nameText, taglineText, profileImg, bioText)" type="button" name="Save Changes">Save Changes</button>
 </form>
 
 <form id="leftForm">
-  <p class="name">{{userName}}</p>
-  <p class="tagline">{{userTagline}}</p>
-  <p class="bio">{{userBio}}</p>
+  <p class="name">{{newUser.name}}</p>
+  <p class="tagline">{{newUser.tagline}}</p>
+  <p class="bio">{{newUser.bio}}</p>
 </form>

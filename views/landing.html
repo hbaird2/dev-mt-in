@@ -18,14 +18,13 @@
 		<!-- <img src="images/Icons/Ham.svg"> -->
 	<!-- </header> -->
 	<form>
-		{{1+1}}
-		<p class="name">{{newUser}}</p>
-		<p class="tagline">{{userTagline}}</p>
-    <p class="bio">{{userBio}}</p>
+		<p class="name">{{newUser.name}}</p>
+		<p class="tagline">{{newUser.tagline}}</p>
+    <p class="bio">{{newUser.bio}}</p>
 	</form>
 	<div class="triangleContainer">
 		<div class="greyTriangle"></div>
-		<div class="blueTriangle" ng-style="{'background-image':'url({{profileImg}})'}"></div>
+		<div class="blueTriangle" ng-style="{'background-image':'url({{newUser.profileUrl}})'}"></div>
 
   </div>
 	<!-- <footer>

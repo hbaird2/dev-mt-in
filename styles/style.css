@@ -102,11 +102,12 @@ button[name="Save Changes"] {
   height: 23em;
   width: 23em;
   background-color: #74FDF2;
-  /*-webkit-clip-path: polygon(405px 324px,441px 171px,476px 13px,164px 78px);*/
-  -webkit-clip-path: polygon(0% 87%, 50% 0%, 50% 0%, 100% 87%);
-  transform: rotate(50deg);
-  margin: auto;
-  margin-top: -300px;
+  -webkit-clip-path: polygon(100% 15%, 0 25%, 56% 100%);
+  /*-webkit-clip-path: polygon(100% 13%, 0 18%, 63% 100%);*/
+  /*-webkit-clip-path: polygon(0% 87%, 50% 0%, 50% 0%, 100% 87%);*/
+  /*transform: rotate(50deg);
+  margin: auto;*/
+  margin-top: -250px;
 
 }
 

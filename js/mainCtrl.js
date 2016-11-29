@@ -1,4 +1,4 @@
-angular.module('DevMtn').controller('mainCtrl', function($scope, dataService){
+angular.module('DevMtn').controller('mainCtrl', function($scope, $state, dataService){
 
   function getData() {
   dataService.getData().then(function(response){
@@ -17,7 +17,9 @@ $scope.saveChanges= function(name, tag, image, bio) {
     profileUrl: image,
     bio: bio
   }
-  dataService.postData(obj);
+  dataService.postData(obj).then(function(response) {
+    $state.go('landing')
+  });
 }
 // $scope.userId = obj['_id'];
 //
